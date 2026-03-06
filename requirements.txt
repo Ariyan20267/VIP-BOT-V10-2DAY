@@ -9,4 +9,3 @@ protobuf-decoder
 pytz
 aiohttp
 cfonts
-psutil
