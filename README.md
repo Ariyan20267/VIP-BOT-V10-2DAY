@@ -1,109 +1,121 @@
-🔥👑 VIP BOT V10 👑🔥
+<h1 align="center">🔥 VIP FREE FIRE BOT V10 🔥</h1>
 
-🚀 FREE FIRE AUTOMATION BOT 🚀
+<h3 align="center">⚡ Powerful Free Fire Automation Bot ⚡</h3>
 
 <p align="center">
+
 <img src="https://img.shields.io/badge/VERSION-V10-red?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/FREE%20FIRE-AUTOMATION-orange?style=for-the-badge">
+
 <img src="https://img.shields.io/badge/PYTHON-100%25-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/STATUS-ACTIVE-green?style=for-the-badge">
-</p><p align="center">
-<img src="https://wallpapercave.com/wp/wp8539097.jpg" width="90%">
-</p>---
 
-🌟 VIP BOT V10 (2DAY)
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge">
 
-🔥 Powerful Free Fire Automation Bot
-⚡ Super Fast Performance
-💎 VIP System Enabled
-🛡 Secure & Smooth Working
+<img src="https://img.shields.io/github/stars/Ariyan20267/Ariyan_bot?style=for-the-badge">
 
-This bot is designed to automate several in-game room actions and provide a smooth automation experience.
+</p>
 
 ---
 
-✨ FEATURES
+# 👑 VIP BOT V10
 
-🌸 Auto Room Join
-🌸 Auto Invite System
-🌸 Auto Emote System
-🌸 Custom Room Name
-🌸 Fast Spam System
-🌸 Smooth & Secure System
-🌸 Live Status Control
-🌸 Auto Restart System
+💎 **Ultimate Free Fire Automation Bot**  
+⚡ Ultra Fast System  
+🔥 VIP Features Enabled  
+🛡 Secure Live Status Control  
+
+This bot is designed for **Free Fire automation systems** with powerful commands and smooth performance.
 
 ---
 
-📦 INSTALLATION (TERMUX)
+# 🚀 FEATURES
 
-Run the following commands in Termux:
+✨ Auto Room Join  
+✨ Auto Invite Players  
+✨ Auto Emote System  
+✨ Custom Room Name  
+✨ Fast Spam Engine  
+✨ Ultra Smooth System  
+✨ Live Status Check  
+✨ Auto Restart System  
 
-pkg update -y
-pkg install git python -y
+---
 
-# Remove old installation if exists
-rm -rf $HOME/.ar
-rm -f $PREFIX/bin/ar
+# 🧠 BOT SYSTEM
 
-# Clone fresh copy
-git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar
+This bot includes a **Live Status Control System**
 
-# Install requirements
-pip install --upgrade pip
-pip install -r $HOME/.ar/requirements.txt
+If developer sets:
 
-# Create permanent command
-cat << 'EOF' > $PREFIX/bin/ar
-#!/data/data/com.termux/files/usr/bin/bash
+```
+ON
+```
+
+Bot will run normally.
+
+If developer sets:
+
+```
+OFF
+```
+
+Bot will stop automatically.
+
+This allows **remote control of the bot system.**
+
+---
+
+# 📱 REQUIREMENTS
+
+✔ Android Device  
+✔ Termux App  
+✔ Internet Connection  
+
+---
+
+# ⚡ FULL INSTALLATION (ONE COMMAND)
+
+📌 Copy the command below and paste it in **Termux**
+
+```bash
+pkg update -y && pkg install git python -y && rm -rf $HOME/.ar && rm -f $PREFIX/bin/ar && git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar && pip install --upgrade pip && pip install -r $HOME/.ar/requirements.txt && echo '#!/data/data/com.termux/files/usr/bin/bash
 if [ ! -d "$HOME/.ar" ]; then
-    git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar
+git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar
 fi
-
 cd $HOME/.ar
 git pull > /dev/null 2>&1
-
 if [ -f "requirements.txt" ]; then
-    pip install -r requirements.txt > /dev/null 2>&1
+pip install -r requirements.txt > /dev/null 2>&1
 fi
-
-python ARIYAN.py
-EOF
-
-chmod +x $PREFIX/bin/ar
+python ARIYAN.py' > $PREFIX/bin/ar && chmod +x $PREFIX/bin/ar
+```
 
 ---
 
-▶ RUN BOT
+# ▶ RUN BOT
 
 After installation simply run:
 
+```
 ar
+```
 
-The bot will automatically start.
-
----
-
-⚙ STATUS CONTROL SYSTEM
-
-This bot uses a Live Status Check System.
-
-If status = ON → Bot will run normally.
-If status = OFF → Bot will automatically stop.
-
-This allows the developer to control the bot remotely.
+Bot will start automatically.
 
 ---
 
-🧠 DEVELOPER
+# 👨‍💻 DEVELOPER
 
-👑 ARIYAN
+👑 **ARIYAN**
 
-💻 Python Developer
-🔥 Free Fire Automation Bot Creator
+Python Developer  
+Free Fire Automation System Creator
 
 ---
 
 <p align="center">
-💖 MADE WITH LOVE 💖
+
+🔥 MADE FOR FREE FIRE LOVERS 🔥
+
 </p>
