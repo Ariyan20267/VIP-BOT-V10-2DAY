@@ -78,17 +78,24 @@ This allows **remote control of the bot system.**
 
 📌 Copy the command below and paste it in **Termux**
 
-```bash
-pkg update -y && pkg install git python -y && rm -rf $HOME/.ar && rm -f $PREFIX/bin/ar && git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar && pip install --upgrade pip && pip install -r $HOME/.ar/requirements.txt && echo '#!/data/data/com.termux/files/usr/bin/bash
-if [ ! -d "$HOME/.ar" ]; then
-git clone https://github.com/Ariyan20267/Ariyan_bot.git $HOME/.ar
-fi
-cd $HOME/.ar
-git pull > /dev/null 2>&1
-if [ -f "requirements.txt" ]; then
-pip install -r requirements.txt > /dev/null 2>&1
-fi
-python ARIYAN.py' > $PREFIX/bin/ar && chmod +x $PREFIX/bin/ar
+pkg update -y
+pkg upgrade -y
+
+pkg install python git -y
+
+cd ~
+
+rm -rf VIP-BOT-V10-2DAY
+
+git clone https://github.com/Ariyan20267/VIP-BOT-V10-2DAY.git
+
+cd VIP-BOT-V10-2DAY
+
+python -m pip install -r requirements.txt
+
+echo "alias AR='cd ~/VIP-BOT-V10-2DAY && python ARIYAN.py'" >> ~/.bashrc
+
+source ~/.bashrc
 ```
 
 ---
